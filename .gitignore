@@ -1,5 +1,24 @@
-# Ignorar carpetas de Visual Studio
-API/.vs/
-FARMACIA/.vs/
+# VS / Rider
 .vs/
 *.vsidx
+*.user
+
+# .NET build output
+API/bin/
+API/obj/
+FARMACIA_TUP/bin/
+FARMACIA_TUP/obj/
+
+# Node
+node_modules/
+pnpm-debug.log
+
+# VS Code Local History
+.history/
+
+# Secrets – never commit production keys
+appsettings.Production.json
+
+# OS
+.DS_Store
+Thumbs.db
