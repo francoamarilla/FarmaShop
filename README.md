@@ -35,7 +35,7 @@ Aplicación web de e-commerce para una farmacia, desarrollada como proyecto inte
 Importar el script SQL en SQL Server Management Studio:
 
 ```
-scriptActualizadooooo.sql
+database.sql
 ```
 
 ### 2. Backend
@@ -84,7 +84,7 @@ FarmaShop/
 │   ├── Repositories/   # Acceso a datos (EF Core)
 │   ├── Models/         # Entidades y DbContext
 │   └── DTOs/           # Objetos de transferencia
-└── scriptActualizadooooo.sql  # Script de base de datos
+└── database.sql  # Script de base de datos
 ```
 
 ## Arquitectura del backend
